@@ -31,7 +31,7 @@ namespace MACACO
 
         public override double CalcularArea()
         {
-            return (Base * altura) / 2;
+            return (Math.Sqrt(3) / 4) * Math.Pow(lado, 2);
         }
 
         public override double CalcularPerimetro()
